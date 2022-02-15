@@ -1,0 +1,97 @@
+.lmj-plant-item-cover {
+	height: 220px;
+	width: 220px;
+    border-radius: 20px;
+}
+
+
+.lmj-plant-item {
+    position:relative;
+	margin: 30px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+    border-top-right-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.lmj-sales {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	font-weight: 500;
+	color: white;
+	padding: 5px 10px;
+	background-color: #31b572;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+	box-shadow: 1px 1px 12px #31b572;
+}
+
+.lmj-price {
+	position: absolute;
+	left:5px;
+	top:5px;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: 'Courier New';
+	color:#31b572;
+	background-color: white;
+	border-radius: 20px;
+	padding:7px 10px 5px 10px;
+	padding-top: 7px;
+	box-shadow: 1px 1px 12px #555;
+}
+
+.lmj-sale-price {
+	position: absolute;
+	color: white;
+	background-color: #31b572;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: 'Courier New';
+	left: 25px;
+	top : 20px;
+	border-radius: 20px;
+	padding:7px 10px 5px 10px;
+	box-shadow: 1px 1px 12px #555;
+
+}
+
+.lmj-old-price {
+	position: absolute;
+	left:5px;
+	top:5px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.lmj-price-line {
+	background-color: #31b572;
+  	transform: rotate(150deg);
+	top: 50%;
+	left:15%;
+	width: 75%;
+  	height: 5%;
+	position: absolute;
+}
+
+.lmj-old-price-value {
+	font-weight: 700;
+	font-size: 15px;
+	font-family: 'Courier New';
+	color:#31b572;
+	padding:7px 10px 5px 10px;
+}
+
+.lmj-bottom-plant-item {
+	width: 100%;
+	display: flex;
+}
+
+.lmj-care-scale {
+	width: 30%;
+}

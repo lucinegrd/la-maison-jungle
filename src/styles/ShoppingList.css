@@ -1,0 +1,56 @@
+.lmj-menu {
+	text-align: end;
+	padding: 30px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.lmj-menu > div {
+	width: 25%;
+}
+
+.lmj-shopping-list {
+	width: 100%;
+}
+
+.lmj-plant-list {
+	list-style-type: none;
+	padding: 1%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-radius: 5%;
+}
+
+.lmj-div-button-add-cart{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.lmj-button-add-cart {
+	background-color: #31b572;
+	color: white;
+	font-family: 'Comfortaa';
+	font-size: 65%;
+	font-weight: bold;
+	width: 100%;
+	border-radius: 20px;
+	border-color: #31b572;
+	padding: 3%;
+	border-style: solid;
+	cursor: pointer;
+}
+
+.lmj-button-add-cart:hover {
+	background-color: white;
+	color: #31b572;	
+	transition: 0.3s all;
+}
+
+.lmj-div-button-add-cart:active {	
+	font-size: 70%;
+}
